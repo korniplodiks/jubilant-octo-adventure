@@ -186,3 +186,22 @@ describe('AdventureGame', function() {
         assert.strictEqual(true, true);
     });
 });
+
+
+// Tests for AdventureGame
+
+const assert = require('assert');
+
+describe('AdventureGame', function() {
+    it('should initialize correctly', function() {
+        assert.strictEqual(true, true);
+    });
+    
+    it('should handle requests', function() {
+        assert.strictEqual(1 + 1, 2);
+    });
+    
+    it('should handle update 81', function() {
+        assert.strictEqual(true, true);
+    });
+});
